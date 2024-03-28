@@ -2,6 +2,10 @@
 
 Example repository to go with blog post on Test-Drive Python Code Forward, Bug Backward.
 
+This workspace is a Python project setup for a simple calculator application. It includes the main application file (calculator.py), a unit test file (test_calculator.py). The project is configured with a setup.py file for packaging and distribution.
+
+The project is also set up with GitHub Actions for continuous integration, as defined in the .github/workflows/python-app.yml file. This workflow runs tests on every push to any branch.
+
 ## Setup
 
 1. Clone the repository:
@@ -27,7 +31,7 @@ pip install .\[dev\]
 5. Run the main script:
 
 ```bash
-python main.py
+python calculator.py
 ```
 
 ## Testing
