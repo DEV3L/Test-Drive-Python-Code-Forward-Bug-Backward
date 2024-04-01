@@ -1,8 +1,8 @@
-# Test Drive Python: Code Forward, Bug Backward
+# python-code-blog-posts
 
-Example repository to go with blog post on Test-Drive Python Code Forward, Bug Backward.
+Example repository to go with blog posts that have Python related code examples.
 
-This workspace is a Python project setup for a simple calculator application. It includes the main application file (calculator.py), a unit test file (test_calculator.py). The project is configured with a setup.py file for packaging and distribution.
+This workspace is a Python project setup for a Python project.
 
 The project is also set up with GitHub Actions for continuous integration, as defined in the .github/workflows/python-app.yml file. This workflow runs tests on every push to any branch.
 
@@ -11,8 +11,8 @@ The project is also set up with GitHub Actions for continuous integration, as de
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/DEV3L/Test-Drive-Python_Code-Forward-Bug-Backward
-cd Test-Drive-Python_Code-Forward-Bug-Backward
+git clone https://github.com/DEV3L/python-code-blog-posts.git
+cd python-code-blog-posts
 ```
 
 2. Setup a virtual environment and activate it:
@@ -26,12 +26,6 @@ source .venv/bin/activate
 
 ```bash
 pip install .\[dev\]
-```
-
-5. Run the main script:
-
-```bash
-python calculator.py
 ```
 
 ## Testing
