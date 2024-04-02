@@ -7,6 +7,6 @@ setup(
     author="Justin Beall",
     author_email="jus.beall@gmail.com",
     packages=find_packages(),  # Automatically discover all packages
-    install_requires=[""],
+    install_requires=["networkx"],
     extras_require={"dev": ["black", "isort", "pytest", "pytest-cov", "pylint"]},
 )
